@@ -7,10 +7,12 @@ LABEL Description="This image is used for github->circleci->dockerhub->tutum->aw
 # File Author / Maintainer
 MAINTAINER pushpendra
 
-RUN apt-get update
-
 #RUN sudo apt-get install openjdk-8-jdk
-RUN sudo apt-get install -y openjdk-7-jdk
+RUN add-apt-repository ppa:webupd8team/java -y && \
+    apt-get update && \
+    echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
+    apt-get install -y oracle-java8-installer && \
+    apt-get clean
 #RUN apt-get install -y --no-install-recommends openjdk-7-jdk
 RUN apt-get install -y maven
 RUN sudo apt-get install -y tomcat7
