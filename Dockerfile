@@ -43,4 +43,4 @@ CMD ["catalina.sh", "run"]
 #EXPOSE 8080
 #Entry point or image starting point
 #ENTRYPOINT ["",""]
-
+#frgegfrerferfrfwerferferferferferferf
