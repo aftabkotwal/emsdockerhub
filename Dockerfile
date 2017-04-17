@@ -15,7 +15,7 @@ RUN apt-get install -y oracle-java8-installer
 RUN apt-get clean
 #RUN apt-get install -y --no-install-recommends openjdk-7-jdk
 RUN apt-get install -y maven
-RUN sudo apt-get install -y tomcat7
+RUN apt-get install -y tomcat7
  
 ENV CATALINA_HOME /usr/share/tomcat7/
 ENV CATALINA_BASE /var/lib/tomcat7/
