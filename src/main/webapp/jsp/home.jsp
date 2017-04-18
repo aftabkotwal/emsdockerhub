@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Employee Application CHECKING</title>
+<title><marquee>Employee Application CHECKING</marquee></title>
 <style type="text/css">
 /* Reset body padding and margins */
 body { margin:0; padding:0; }
