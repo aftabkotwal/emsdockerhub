@@ -81,7 +81,7 @@ a:hover {color:#80A24A;}   /* mouse over link */
 <body>
 <div id="header_container">
     <div id="header">
-       Employee Management System ny Aftab
+      Employee Of the Month :D 
     </div>
 </div>
 <div class="smart-green" >
